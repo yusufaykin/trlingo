@@ -14,6 +14,8 @@
 		7716244D2C67C286009571CD /* LangAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7716244C2C67C286009571CD /* LangAppTests.swift */; };
 		771624572C67C286009571CD /* LangAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771624562C67C286009571CD /* LangAppUITests.swift */; };
 		771624592C67C286009571CD /* LangAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771624582C67C286009571CD /* LangAppUITestsLaunchTests.swift */; };
+		771624662C67C422009571CD /* WordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771624652C67C422009571CD /* WordListView.swift */; };
+		77DC40962C69E10000FB2544 /* FlashcardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DC40952C69E10000FB2544 /* FlashcardsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		771624522C67C286009571CD /* LangAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LangAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		771624562C67C286009571CD /* LangAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangAppUITests.swift; sourceTree = "<group>"; };
 		771624582C67C286009571CD /* LangAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		771624652C67C422009571CD /* WordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListView.swift; sourceTree = "<group>"; };
+		77DC40952C69E10000FB2544 /* FlashcardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				7716243D2C67C285009571CD /* ContentView.swift */,
 				7716243F2C67C286009571CD /* Assets.xcassets */,
 				771624412C67C286009571CD /* Preview Content */,
+				771624652C67C422009571CD /* WordListView.swift */,
+				77DC40952C69E10000FB2544 /* FlashcardsView.swift */,
 			);
 			path = LangApp;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7716243E2C67C285009571CD /* ContentView.swift in Sources */,
+				77DC40962C69E10000FB2544 /* FlashcardsView.swift in Sources */,
+				771624662C67C422009571CD /* WordListView.swift in Sources */,
 				7716243C2C67C285009571CD /* LangAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
